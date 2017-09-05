@@ -12,6 +12,9 @@ L:/MyFiles/Projects/ITS/LPR
   git config user.email "girishreddy1993@gmail.com"
   git config user.name "Girish"
 
+  git config user.email "gkath001@odu.edu"
+  git config user.name "gkath001"
+  
   
   https://github.com/rvajrapu/Portal-LPR.git
   
@@ -28,7 +31,7 @@ L:/MyFiles/Projects/ITS/LPR
   
   ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLgSG8Js+cZ6gsARjKZ2gYUJOLR9TXhGMLkPw3aYavLLPqUIdD+L0/Qmz8CwvwslZcI+51h4AzbJKNmkw0FmH/Wr8XNyuWTb4DV8qsOXRqidAA+35qZjIXiHR8WuiLz//aMLbtjT95Ge9VaN9Kxx6VFHvaHOVCBwyvNiLSRK5fAtexRT2N5ct5OIgU6YUASC/p/5va1P7oqtRpNCblQL56G7h8ZThtppFc6UcFzEZEhKLnYFSk0H/3rhmczQAuY2KJ3Ijxgc0FKie3k7T9+DPCQNIBVQWE8bbESGAGM3J7P6lW2Dz3ULHhO5u6/GRH2QPGREanyqlokxfdd176bdGf girishreddy1993@gmail.com
   
-  ssh-add ~/.ssh/id_rsa_personal
+  ssh-add ~/.ssh/id_rsa
   
   Host github.com
   HostName github.com
@@ -51,3 +54,26 @@ L:/MyFiles/Projects/ITS/LPR
   
   
   ssh -T git@github-GirishKathi
+  
+  
+  
+  
+  ssh-keygen -t rsa -C "girishreddy1993@gmail.com"
+  save the file with id_rsa_yourwish
+  GitHub account, browse to "Account Overview
+  return to the Terminal, and type vim ~/.ssh/id_rsa_yourwish.pub
+  Copy the entire string that is displayed, and paste this into the GitHub textarea. Feel free to give it any title you wish.
+  touch ~/.ssh/config   --- creates the file
+  add the lines below 
+     
+           Host github.com-----> github dummy name which you will refer to 
+                  HostName github.com
+                  User git
+                  IdentityFile ~/.ssh/id_rsa_personal
+   In git bash ssh -T git@github.com---->github.com is the dummy name above and it will prompt to enetr id and password of the account
+   
+   
+
+  ssh -T git@github-gkath001 -i /c/Users/you/.ssh/id_rsa
+  
+  
