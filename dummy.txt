@@ -1,0 +1,53 @@
+L:/MyFiles/Temp/trail
+
+C:/Program Files/Git
+
+
+
+C:/Program Files/Git
+
+L:/MyFiles/Projects/ITS/LPR
+
+
+  git config user.email "girishreddy1993@gmail.com"
+  git config user.name "Girish"
+
+  
+  https://github.com/rvajrapu/Portal-LPR.git
+  
+  
+  git remote add origin https://github.com/rvajrapu/Portal-LPR.git
+  
+  
+  
+  ssh-keygen -t rsa -C "girishreddy1993@gmail.com"
+  
+  (/c/Users/Girish/.ssh/id_rsacd
+  
+  vim ~/.ssh/id_rsa_personal.pub
+  
+  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLgSG8Js+cZ6gsARjKZ2gYUJOLR9TXhGMLkPw3aYavLLPqUIdD+L0/Qmz8CwvwslZcI+51h4AzbJKNmkw0FmH/Wr8XNyuWTb4DV8qsOXRqidAA+35qZjIXiHR8WuiLz//aMLbtjT95Ge9VaN9Kxx6VFHvaHOVCBwyvNiLSRK5fAtexRT2N5ct5OIgU6YUASC/p/5va1P7oqtRpNCblQL56G7h8ZThtppFc6UcFzEZEhKLnYFSk0H/3rhmczQAuY2KJ3Ijxgc0FKie3k7T9+DPCQNIBVQWE8bbESGAGM3J7P6lW2Dz3ULHhO5u6/GRH2QPGREanyqlokxfdd176bdGf girishreddy1993@gmail.com
+  
+  ssh-add ~/.ssh/id_rsa_personal
+  
+  Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa
+  
+  
+  git remote add origin https://github.com/GirishKathi/trail
+  
+  
+  
+  
+  
+  
+  
+  github-GirishKathi
+  
+  ssh -T git@github-gkath001
+  
+  
+  
+  ssh -T git@github-GirishKathi
